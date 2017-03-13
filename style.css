@@ -25,10 +25,12 @@
 .hourHand {
 }
 
-.minuteHand {}
+.minuteHand {
+	background: white;
+}
 
 .secondHand {
-    background: grey;
+    background: gray;
     height: 2.5px;
     transform: rotate(90deg);
 }
