@@ -1,3 +1,38 @@
-.hourHand{
-	background-color: red;
+.clockFace {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.hand {
+    width: 50%;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0, 3.69, 0.58, 1);
+
+}
+
+.hourHand {
+}
+
+.minuteHand {}
+
+.secondHand {
+    background: grey;
+    height: 2.5px;
+    transform: rotate(90deg);
+}
+
+body {
+    background-color: red;
 }
